@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    background-color: #0073e6; /* Light blue */
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header .subhead {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+header .byline, header .dateline {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #e6e6e6;
+}
+
+/* Hero Image */
+.hero-image {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 700px; /* Limits large image sizes */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.img-caption {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.img-caption .license-info a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.img-caption .license-info a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+.map-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.chart-caption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    main {
+        padding: 1rem;
+    }
+    .hero-image img {
+        max-width: 100%;
+    }
+}
